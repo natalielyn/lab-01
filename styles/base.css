@@ -6,8 +6,8 @@ body {
   margin: auto;
 }
 
-article, nav, aside, footer, section {
+/* article, nav, aside, footer, section {
   position: relative;
-  outline: 1px solid black;
+  outline: 2px solid black;
   color: black;
-}
+} */

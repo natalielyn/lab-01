@@ -3,23 +3,72 @@ body {
 }
 
 body * {
-  background-color: lightcoral;
+  position: relative;
+  font-size: 25px;
+
 }
 
-.content  {
-  width: 100%;
+#container {
+  max-width: 100%;
+  min-width: 820px;
+  overflow: auto;
 }
 
-main {
+header {
   float: right;
+  width: 100%;
+  min-height: 100px;
+  background-color: #92fcff;
 }
 
 .nav {
-  width: 100%;
-  height: 100px;
+  float: left;
+  height: 600px;
+  width: 200px;
+  border: 1px solid white;
+  background-color: #92ffe1;
 }
 
-.sub-nav {
-  width: 20.83%;
-  height: 600px;
+#featureSection {
+  clear: right;
+  overflow: hidden;
+  height: 200px;
+}
+
+.featureC {
+  float: left;
+  height: 200px;
+  width: 380px;
+  border: 1px solid white;
+  background-color: #92ffc0;
+}
+
+.featureD {
+  float: right;
+  height: 200px;
+  width: 380px;
+  border: 1px solid white;
+  background-color: #b5ffc9;
+}
+
+#content {
+  clear: right;
+  overflow: hidden;
+ 
+}
+
+.box {
+  float: left;
+  height: 250px;
+  width: 190px;
+  border: 1px solid white;
+  background-color: #95ffa1;
+}
+
+footer {
+  float: left;
+  height: 150px;
+  width: 760px;
+  border: 1px solid white;
+  background-color: #daff95;
 }
